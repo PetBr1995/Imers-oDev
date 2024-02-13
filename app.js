@@ -135,4 +135,9 @@ function exibirApuracao(event) {
   window.location.href = "apuracao.html";
 }
 
+function exibirMenuInicial(event) {
+  event.preventDefault();
+  window.location.href = "index.html";
+}
+
 
